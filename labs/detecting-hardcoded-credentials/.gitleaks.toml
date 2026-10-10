@@ -1,0 +1,7 @@
+title = "Custom Cloud Security Lab Rules"
+
+[[rules]]
+id = "generic-env-secret"
+description = "Detected potential secret assigned in environment file"
+regex = '''(?i)(SECRET|KEY|PASSWORD|TOKEN|CONNECTION_STRING)\s*=\s*['"]?[A-Za-z0-9_~\-]{16,}['"]?'''
+keywords = ["SECRET", "KEY", "PASSWORD", "TOKEN"]
