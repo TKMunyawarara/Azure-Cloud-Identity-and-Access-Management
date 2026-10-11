@@ -9,5 +9,7 @@
 | [05-just-in-time-pim](labs/azure-just-in-time-pim]/) | Identity & Governance | Zero Standing Access (ZSA), Just-In-Time (JIT) Elevation, Time-Bound RBAC, Token Cache Invalidation | Azure CLI, ARM APIs, Bash | Completed |
 | [06-sp-secret-rotation-lifecycle](labs/azure-sp-secret-rotation-lifecycle/) | Identity & Secrets | App Registrations, Service Principals, Zero-Downtime Secret Rotation, Scoped RBAC | Azure CLI, Microsoft Entra ID | Completed |
 | [07-detecting-hardcoded-credentials](labs/detecting-hardcoded-credentials/) | DevSecOps & Secrets | Secret Leakage Detection, Pre-commit Enforcement, Image Layer Scanning, Managed Identity Remediation | Gitleaks, Trivy, Git Hooks, Docker, Azure CLI | 'Completed' |
+| [08-iam-privilege-escalation-remediation](labs/azure-iam-privilege-escalation-remediation/) | IAM & Identity Security | Scope Inheritance, Over-Permissioned Service Principals, Least Privilege Remediation | Azure CLI, Azure RBAC, Microsoft Graph API | Complete |
+
 ## Public Repository Redaction Standard
 All raw logs, CLI commands, HTTP traffic captures, and scripts across this repository adhere to standard secret-sanitization guidelines. Tenant IDs, Subscription IDs, object IDs, IP addresses, and session tokens have been replaced with placeholders (`<TENANT_ID>`, `<SUBSCRIPTION_ID>`, `<TARGET_IP>`, `<REDACTED>`).
